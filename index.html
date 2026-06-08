@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="stylesheet" href="Vendor/bootstrap/bootstrap.min.css">
+    <!-- Define o conjunto de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Faz o site funcionar corretamente em celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página -->
+    <title>Curiosidade Animal</title>
+
+    <!-- Importação do CSS do Bootstrap -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- ================================================= -->
+    <!-- CONFIGURAÇÃO DOS SCRIPTS JS DO BOOTSTRAP -->
+    <!-- ================================================= -->
+
+   
+    <!-- ================================================= -->
+    <!-- INÍCIO DA NAVBAR -->
+    <!-- ================================================= -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <!-- Container da navbar -->
+        <div class="container-fluid">
+
+            <!-- Nome/logo do menu -->
+    <a class="navbar-brand" href="#">
+
+    <!-- Imagem da logo -->
+    <img 
+        src="./Icones/owl_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" 
+        alt="Logo"
+        width="40">
+
+    </a>
+
+            <!-- Botão hamburguer para telas pequenas -->
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <!-- Ícone do menu hamburguer -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Conteúdo recolhível da navbar -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Lista de links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <!-- Item GOOGLE -->
+                    <li class="nav-item">
+
+                        <!-- Link ativo -->
+                        <a 
+                            class="nav-link active" 
+                            aria-current="page"
+                            href="https://www.google.com.br">
+
+                            Início
+                        </a>
+                    </li>
+
+                    <!-- Item LINK -->
+                    <li class="nav-item">
+
+                        <!-- Link comum -->
+                        <a class="nav-link" href="#">
+                            Animais
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contato.html">
+                            Contato
+                        </a>
+                    </li>                                         
+                    <!-- Item desabilitado -->
+                    <li class="nav-item">
+
+                        <a class="nav-link disabled" aria-disabled="true">
+                            Equipe
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Campo de pesquisa -->
+                <form class="d-flex" role="search">
+
+                    <!-- Caixa de texto -->
+                    <input 
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Pesquisar"
+                        aria-label="Search"/>
+
+                    <!-- Botão pesquisar -->
+                    <button type="button" class="btn btn-dark">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- CAROUSEL -->
+       <div class="carousel-item active">
+            <img src="./img/cavalo.jpg" class="d-block w-100" alt="Cavalo">
+        </div>
+
+        <div class="carousel-item">
+            <img src="./img/elefante.jpg" class="d-block w-100" alt="Elefante">
+        </div>
+
+        <div class="carousel-item">
+            <img src="./img/esquilo.jpg" class="d-block w-100">
+        </div>
+    </div>
+</div>
+<div class="container text-center mt-5">
+    <h1>Bem-vindo ao Curiosidade Animal</h1>
+    <p>
+        Descubra curiosidades incríveis sobre os animais e aprenda mais sobre a natureza.
+    </p>
+</div>
+    <!-- ================================================= -->
+    <!-- CARD -->
+    <!-- ================================================= -->
+
+    <!-- Estrutura principal do card -->
+    <div class="card" style="width: 18rem;">
+
+        <!-- Imagem do card -->
+        <img 
+            src="./img/ambquinn-lion-8096155_640.png"
+            class="card-img-top"
+            alt="Imagem da natureza">
+        <img 
+            src="./img/arttower-hippopotamus-95472_640.jpg"
+            class="card-img-top"
+            alt="Imagem da natureza">
+        <img 
+            src="./img/davidclode-animal-8839173_640.jpg"
+            class="card-img-top"
+            alt="Imagem da natureza">
+
+        <!-- Corpo do card -->
+        <div class="card-body">
+
+            <!-- Título -->
+            <h5 class="card-title">
+                Leão
+            </h5>
+
+            <!-- Texto do card -->
+            <p class="card-text">
+                O leão é conhecido como o rei da selva.
+            </p>
+            <h5 class="card-title">Girafa</h5>
+            <p class="card-text">
+            A girafa é o animal terrestre mais alto do mundo.
+            </p>
+            <h5 class="card-title">Elefante</h5>
+            <p class="card-text">
+            O elefante é o maior mamífero terrestre.
+            </p>
+            <!-- Botão -->
+            <a href="#" class="btn btn-primary">
+                Go somewhere
+            </a>
+        </div>
+    </div>
+<script src="Vendor/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
